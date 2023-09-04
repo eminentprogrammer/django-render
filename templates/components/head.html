@@ -1,0 +1,45 @@
+{% load static %}
+    <!-- All in One SEO 4.2.8 -->
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="7 days">
+    <meta name="author" content="Igwesi Emmanuel">
+    <meta name="robots" content="max-image-preview:large" />
+    <meta name="generator" content="Igwesi +234-807-382-4876" />
+    <link rel='canonical' href="{{ request.scheme }}://{{ request.get_host }}{{ request.path }}" />
+    <meta name="description" content="Django Onrender Description">
+    <meta name="keywords" content="Django Onrender">
+
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Django Onrender" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Django Onrender Template"/>
+    <meta property="og:description" content="Django Project setup for deployment on Render server"/>
+    <meta property="og:url" content="{{ request.scheme }}://{{ request.get_host }}{{request.path}}" />
+    <meta property="og:image" content="{{ request.scheme }}://{{ request.get_host }}{% static 'images/logo.jpg' %}" />
+    <meta property="og:image:secure_url" content="{{ request.scheme }}://{{ request.get_host }}{% static 'images/logo.png' %}" />
+    <meta property="og:image:width" content="612"/>
+    <meta property="og:image:height" content="288"/>
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <!-- Allow web app to be run in full-screen mode - iOS. -->
+
+    <!-- Apple -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="green">
+    <meta name="apple-mobile-web-app-title" content="Django Onrender">
+
+    <meta name="theme-color" content="red"/>
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Django Onrender">
+    <meta name="msapplication-TileColor" content="red">
+
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="{{ request.scheme }}://{{ request.get_host }}{% static 'images/favicons/apple-touch-icon.png' %}" sizes="180x180" />
+    <link rel="icon" href="{{ request.scheme }}://{{ request.get_host }}{% static 'images/favicons/favicon-32x32.png' %}" sizes="32x32" type="image/png" />
+    <link rel="icon" href="{{ request.scheme }}://{{ request.get_host }}{% static 'images/favicons/favicon-16x16.png' %}" sizes="16x16" type="image/png" />
+    <link rel="manifest" href="{{ request.scheme }}://{{ request.get_host }}{% static 'images/favicons/site.webmanifest' %}" />
+    <link rel="icon" href="{{ request.scheme }}://{{ request.get_host }}{% static 'images/favicons/favicon.ico' %}" />
+    <link rel="mask-icon" href="{{ request.scheme }}://{{ request.get_host }}{% static 'images/favicons/favicon.ico' %}" color="#7952b3" />
+    <meta name="theme-color" content="#7952b3" />
